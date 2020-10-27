@@ -24,12 +24,12 @@
     <?php
         // scan the images directory for images to use in the carousel
         // first 2 keys in the returned array are . and ..   We will need to filter those!
-        $images = scandir('assets/images');
+        $images = ["borat.png", "fjords.jpg", "lights.jpg", "nature.jpg"];
         foreach($images as $key => $image){
             if (!in_array($image,array(".",".."))){
                 // First item needs to get the active css class. Otherwise the carousel will not show
                 echo ($key == 2) ? '<div class="carousel-item active">' : '<div class="carousel-item">';
-                echo "<img class='d-block w-100' src='assets/images/$image'/></div>";
+                echo "<img class='d-block w-100' src='https://xxbucketxx.s3.amazonaws.com/images/$image'/></div>";
             }     
         }
     ?>
