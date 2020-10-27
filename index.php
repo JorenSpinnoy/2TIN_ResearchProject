@@ -22,6 +22,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <?php
+        echo gethostname();
         // scan the images directory for images to use in the carousel
         // first 2 keys in the returned array are . and ..   We will need to filter those!
         $images = ["borat.png", "fjords.jpg", "lights.jpg", "nature.jpg"];
