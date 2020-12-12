@@ -1,7 +1,7 @@
 <?php
     require('vendor/autoload.php');
     // Define mysql server settings
-    $serverName = "10.0.1.50";
+    $serverName = "database-webserver.cl93jdddf6av.us-east-1.rds.amazonaws.com";
     $username = "admin";
     $password = "Urafgt_69";
     $dbName = "employees";
