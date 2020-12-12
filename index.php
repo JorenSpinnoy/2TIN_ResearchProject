@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-     <title>Awsome PXL DevOps App!</title>
+     <title>Awesome PXL DevOps App!</title>
      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
      <link rel="stylesheet" href="assets/css/style.css">
     </head>
